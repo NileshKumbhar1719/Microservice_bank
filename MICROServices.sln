@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankEmployee", "BankEmploye
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Auth\Auth.csproj", "{5615D17E-13B7-42BA-BA45-33538A09DA08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService", "CustomerService\CustomerService.csproj", "{15A87A53-3089-4F07-857C-4CBD3A866012}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{5615D17E-13B7-42BA-BA45-33538A09DA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5615D17E-13B7-42BA-BA45-33538A09DA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5615D17E-13B7-42BA-BA45-33538A09DA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A87A53-3089-4F07-857C-4CBD3A866012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A87A53-3089-4F07-857C-4CBD3A866012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A87A53-3089-4F07-857C-4CBD3A866012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A87A53-3089-4F07-857C-4CBD3A866012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{4E2EB817-FE82-43F3-90F0-C1A4CF003BCD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{F363B41E-8BCB-471B-99E4-839E02BF5535} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{5615D17E-13B7-42BA-BA45-33538A09DA08} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{15A87A53-3089-4F07-857C-4CBD3A866012} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38EB067B-6D68-4BE3-81BC-EFE9888CA264}
