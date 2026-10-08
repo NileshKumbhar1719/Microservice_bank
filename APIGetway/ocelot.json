@@ -1,0 +1,138 @@
+{
+  "Routes": [
+
+    {
+      "DownstreamPathTemplate": "/api/Authe/register",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Authe/register",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Authe/login",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Authe/login",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Authe/logout",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Authe/logout",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Authe/admin",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Authe/admin",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Authe/user",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Authe/user",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+
+    //{
+    //  "DownstreamPathTemplate": "/api/Bank",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7089
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/bank",
+    //  "UpstreamHttpMethod": [
+    //    "GET",
+    //    "POST",
+    //    "PUT",
+    //    "DELETE"
+    //  ]
+    //},
+    {
+      "DownstreamPathTemplate": "/api/Bank/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7089
+        }
+      ],
+      "UpstreamPathTemplate": "/api/bank/{id}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
+    },
+    //{
+    //  "DownstreamPathTemplate": "/api/EmpBank",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7036
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/EmpBank",
+    //  "UpstreamHttpMethod": [
+    //    "GET",
+    //    "POST",
+    //    "PUT",
+    //    "DELETE"
+    //  ]
+    //},
+    {
+      "DownstreamPathTemplate": "/api/EmpBank/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7036
+        }
+      ],
+      "UpstreamPathTemplate": "/api/EmpBank/{id}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7000"
+  }
+}
